@@ -1,0 +1,43 @@
+*{
+    color: white;
+}
+body{
+    position: relative;
+}
+header{
+    text-align: center;
+    background-color: brown;
+    font-size: xx-large;
+    padding: 30px;
+    position: sticky;
+    top:0;
+}
+.a{
+    text-align: center;
+    background-color: rgb(15, 223, 60);
+    margin: 10px;
+    padding: 20px;
+}
+.b{
+    text-align: center;
+    background-color: rgb(14, 62, 100);
+    margin: 10px;
+    padding: 20px;
+}
+.c{
+    text-align: center;
+    background-color: rgb(14, 16, 122);
+    margin: 10px;
+    padding: 20px;
+}
+.sidebar{
+     position: absolute;
+     top: 0;
+     width: 20%;
+     height: 100%;
+     background-color: blue;
+}
+ul,li{
+    list-style: none;
+    padding: 20px;
+}

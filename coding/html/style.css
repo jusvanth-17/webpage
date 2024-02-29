@@ -1,0 +1,22 @@
+table,th,td{
+    border: 1px solid black;
+}
+.i{
+    border-collapse: collapse;
+}
+.j{
+    background-color: blue;
+}     
+h1{
+    text-align: center;
+    margin: 0px;
+     word-spacing: 10px;
+     letter-spacing:2px;
+     background-color: blueviolet;
+}                         
+body{
+    background-color: #AD88C6;
+}            
+div{
+    width: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

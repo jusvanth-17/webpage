@@ -1,0 +1,50 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    flex-flow: column; 
+    gap: 10px 10px;
+    /* justify-content :space-between; */
+}
+.flex-item{
+    text-align: center;  
+    font-size: xx-large;
+    padding: 20px;
+    border:1px solid black;
+  
+}
+.item1{
+    background-color: aqua;
+    padding: 5rem;
+    
+}
+.item2{
+    background-color:blue;
+    padding: 4rem;
+}
+.item3{
+    background-color: rgb(49, 10, 156);
+    padding: 3rem;
+
+}
+.item4{
+    background-color: rgb(172, 32, 165);
+    padding: 2rem;
+
+}
+.item5{
+    background-color: rgb(207, 123, 26);
+    padding: 1rem;
+}
+.item6{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+
+}
+.item7{
+    background-color: rgb(24, 214, 24);
+    padding: 5px;
+
+}

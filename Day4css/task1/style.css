@@ -1,0 +1,78 @@
+body{
+  
+    background-image: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+  
+   display: flex;
+   margin-top: 300px;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+   
+}
+@keyframes move{
+    from{
+        transform: translatex(400px);
+    }
+    to{
+        transform: translatex(-300px);
+    }
+   
+}
+img{
+    position: absolute;
+    margin-top: 330px;
+    top: 0px;
+    left: 290px;
+    z-index:4 ;
+}
+.ball{
+    position: absolute;
+    margin-top: 400px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(tyre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:rotate 1s infinite linear;
+    z-index: 10;
+    left: 350px;
+
+}
+.ball1{
+    position: absolute;
+    margin-top: 400px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(tyre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:rotate 1s infinite linear;
+    z-index: 5;
+    margin-left: 20px;
+    left: 535px;
+}
+
+
+.obstacles{
+    position: absolute;
+    width: 360px;
+    height: 470px;
+    margin-top: 10px;
+    background-image: url(tree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: move 1s infinite linear;
+    z-index: -1;
+}

@@ -1,0 +1,28 @@
+body{
+  background-image: url(https://th.bing.com/th/id/OIP.ZoiNd9vJ9R7zYZUxc_6HpAHaEK?w=345&h=180&c=7&r=0&o=5&pid=1.7);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    display: flex;
+    background-color: rgb(98, 170, 121);
+    justify-content: space-between;
+}
+img{
+    padding: 10px;
+    border-radius: 50%;
+}
+.logo{
+   display: flex;
+}
+ul{
+    font-size: x-large;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;   
+}
+li{
+   padding: 5px;
+   
+}

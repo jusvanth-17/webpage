@@ -1,0 +1,28 @@
+*{
+    margin-top: 0;
+    text-align: center
+    ;
+}
+.i{
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+nav{
+    background-color: aliceblue;
+    
+   
+} 
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 42%;
+    padding: 10px;
+}
+li{
+    padding: 5px;
+}
+h3,p{
+    text-align: center;
+}
